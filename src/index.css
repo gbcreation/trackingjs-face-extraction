@@ -1,0 +1,42 @@
+h1 {
+    font-family: sans-serif;
+}
+
+#dd-area {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border: dashed 2px lightgrey;
+    border-radius: 10px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14pt;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#dd-area.hover {
+    border: solid 2px grey;
+    color: lightgrey;
+}
+
+#container {
+    position: relative;
+    margin: 10px;
+}
+
+#container div {
+    position: absolute;
+    border: solid 3px red;
+}
+
+#faces {
+    display: flex;
+    padding: 1em;
+}
+
+#faces div {
+    margin: 5px;
+}
